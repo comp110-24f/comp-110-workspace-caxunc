@@ -39,6 +39,5 @@ def main_planner(guests: int) -> None:
     print("Cost: $" + str(cost(tea_bags(guests), treats(guests))))#prints the total costs of the tea party.
 
 
-
 if __name__ == "__main__":
     main_planner(guests=int(input("How many guests are attending your tea party? "))) #run the main method.
